@@ -4,12 +4,13 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-beautifulsoup4 = "*"
-bs4 = "*"
+beautifulsoup4 = "==4.9.3"
+bs4 = "==0.0.1"
 Flask = "*"
-requests = "*"
-urllib3 = "*"
+requests = "==2.26.0"
+urllib3 = "==1.26.6"
 gunicorn = "*"
+flask = "==2.0.1"
 
 [dev-packages]
 
