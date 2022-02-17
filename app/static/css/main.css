@@ -52,29 +52,33 @@ li.dropdown {
 h1 {
     text-align: center;
 }
+
 h3 {
     text-align: center;
 }
+
 .container {
     margin: 50px;
 }
 
-.right_text {
-    justify-content: right;
-    width: 60%;
-}
-
-.left_text {
-    justify-content: left;
-    width: 60%
-}
-
-.right_img {
-    float: right;
+.column_1 {
     width: 30%;
-}
-
-.left_img {
     float: left;
-    width: 30%;
+}
+
+.column_2 {
+    width: 60%;
+    float: left;
+    justify-content: center;
+}
+
+.container::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+img {
+    width: 300px;
+    height: 300px;
 }
