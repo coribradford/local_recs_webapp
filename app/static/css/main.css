@@ -62,14 +62,13 @@ h3 {
 }
 
 .column_1 {
-    width: 30%;
+    width: 33%;
     float: left;
 }
 
 .column_2 {
-    width: 60%;
+    width: 66%;
     float: left;
-    justify-content: center;
 }
 
 .container::after {
@@ -80,5 +79,6 @@ h3 {
 
 img {
     width: 300px;
-    height: 300px;
+    height: 200px;
+    object-fit: cover;
 }
