@@ -11,6 +11,10 @@ app = Flask(__name__)
 def home():
     return render_template("index.html")
 
+@app.route("/favorites")
+def favorites():
+    return render_template("favorites.html")
+
 @app.route("/breakfast")
 def breakfast():
     return render_template("breakfast.html")
